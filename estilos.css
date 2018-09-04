@@ -32,6 +32,27 @@ h1 + h2 {
   color: silver;
 }
 
+span:active{
+  position: relative;
+  top: -2px;
+  left: -2px;
+  cursor: pointer;
+}
+
+#posts-principais .post{
+  position: relative;
+}
+
+#posts-principais .titulo{
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
 header ul {
   padding-left: 0;
   padding-top: 0.25em;
@@ -279,4 +300,25 @@ footer .texto-rodape {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+#boo1{
+  position: fixed;
+  right: 600px;
+  bottom: 10px;
+}
+
+#boo2{
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+}
+
+#boo3{
+  position: fixed;
+  left: 0;
+  bottom: 10px;
 }
